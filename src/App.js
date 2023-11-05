@@ -1,12 +1,14 @@
 import React from 'react'
 import './app.css'
 import Login from './components/Login'
-import {Provider} from 'react-redux'
-const App = ()=>{
+import Home from './components/Home'
 
+const App = ()=>{
 return(
     <div>
+      
       <Login />
+      <Home />
     </div>
   )
 }

@@ -1,5 +1,7 @@
 import './style.css';
+
 const Login = ()=>{
+  
 return(
     <div className="container">
         <h1>Login here</h1>
@@ -8,6 +10,7 @@ return(
         <label htmlFor='password' className="form-control">Password</label>
         <input type="text" name='password' className="form-control" id="password" placeholder='Enter password' />
         <button type='submit' className='btn'>Login</button>
+    
 
     </div>
 )
